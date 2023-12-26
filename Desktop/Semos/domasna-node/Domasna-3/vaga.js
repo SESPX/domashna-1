@@ -8,6 +8,6 @@ const vaga = {
   };
   
   module.exports = vaga;
-  // Во датотеката каде што сакате да го користите модулот vaga.js
-console.log(vaga.gramToKilogram(1500)); // Пример: Претвори 1500 грами во килограми
-console.log(vaga.kilogramToGram(2.5)); // Пример: Претвори 2.5 килограми во грами
+  
+console.log(vaga.gramToKilogram(1500)); 
+console.log(vaga.kilogramToGram(2.5)); 

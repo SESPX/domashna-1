@@ -2,22 +2,22 @@
 
 const valuta = {
     evroToDenar: function(evro) {
-      return evro * 61.5; // Пример - Конверзија од евра во денари
+      return evro * 61.5; 
     },
     evroToDolar: function(evro) {
-      return evro * 1.12; // Пример - Конверзија од евра во долари
+      return evro * 1.12; 
     },
     denarToDolar: function(denar) {
-      return denar / 55.5; // Пример - Конверзија од денари во долари
+      return denar / 55.5; 
     },
     dolarToEvro: function(dolar) {
-      return dolar / 1.12; // Пример - Конверзија од долари во евра
+      return dolar / 1.12; 
     }
   };
   
   module.exports = valuta;
 
-console.log(valuta.evroToDenar(100)); // Пример: Претвори 100 евра во денари
-console.log(valuta.evroToDolar(100)); // Пример: Претвори 100 евра во долари
-console.log(valuta.denarToDolar(1000)); // Пример: Претвори 1000 денари во долари
-console.log(valuta.dolarToEvro(100)); // Пример: Претвори 100 долари во евра
+console.log(valuta.evroToDenar(100)); 
+console.log(valuta.evroToDolar(100)); 
+console.log(valuta.denarToDolar(1000)); 
+console.log(valuta.dolarToEvro(100)); 
